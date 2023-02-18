@@ -1,0 +1,102 @@
+{
+    "quetions":[
+            {
+                "que":"How do you call a function named 'myFunction' ?",
+                "ans":{
+                    "a":"myFunction()",
+                    "b":"call function myFunction()",
+                    "c":"call myFunction()",
+                    "d":"function myFunction()"
+                }
+
+            },
+            {
+                "que":"Where is the correct place to insert a JavaScript?",
+                "ans":{
+                    "a":"The <head> section",
+                    "b":"Both the <head> section and the <body> section are correct",
+                    "c":"The <body> section is correct",
+                    "d":"Outside the <head> section and the <body> section are correct"
+                }
+
+            },
+            {
+                "que":"What is the correct JavaScript syntax to write 'Hello Word' ?",
+                "ans":{
+                    "a":"('Hello Word')",
+                    "b":"echo 'Hello Word'",
+                    "c":"document.write('Hello Word')",
+                    "d":"print('Hello Word')"
+                }
+
+            },
+            {
+                "que":"What is the correct syntax for referring to an external script called 'index.js' ?",
+                "ans":{
+                    "a":"<script href='index.js'>",
+                    "b":"<script name='index.js'>",
+                    "c":"<script src='index.js'>",
+                    "d":"<script link='index.js'>"
+                }
+
+            },
+            {
+                "que":"The external JavaScript file must contain the <script> tag",
+                "ans":{
+                    "a":true,
+                    "b":false
+                }
+
+            },
+            {
+                "que":"How to write an if statement in JavaScript ?",
+                "ans":{
+                    "a":"if i=5 then",
+                    "b":"if i=5",
+                    "c":"i==5 then",
+                    "d":"if(i==5)"
+                }
+
+            },
+            {
+                "que":"How do you write 'Hello Word' in an alert box ?",
+                "ans":{
+                    "a":"msg('Hello Word')",
+                    "b":"echo 'Hello Word'",
+                    "c":"alertBox('Hello Word')",
+                    "d":"alert('Hello Word')"
+                }
+
+            },
+            {
+                "que":"How do you create a function in JavaScript ?",
+                "ans":{
+                    "a":"function myFunction()",
+                    "b":"function=myFunction()",
+                    "c":"function:myFunction()",
+                    "d":"myFunction()"
+                }
+
+            },
+            {
+                "que":"How to write an if statement for executing some code if 'i' is NOT equal to 5 ?",
+                "ans":{
+                    "a":"if i not equal to 5",
+                    "b":"if(i!=5)",
+                    "c":"if(i=!5)",
+                    "d":"if i!=5 then"
+                }
+
+            },
+            {
+                "que":"Inside which HTML element do we put the JavaScript ?",
+                "ans":{
+                    "a":"js tag",
+                    "b":"javascript tag",
+                    "c":"script tag",
+                    "d":"scripting tag"
+                }
+
+            }
+    ]
+}
