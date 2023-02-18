@@ -16,7 +16,7 @@ function handleLogin() {
       if (user.userName == userName) {
         if (user.password == password) {
           flag = true;
-          alert("Login successful...!");
+          alert("Login successful...! Best luck for Quiz...!");
           window.location.href = "quiz.html";
         } else {
           flag = true;
