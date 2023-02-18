@@ -6,7 +6,7 @@ body{
     display: flex;
     color:green;
     width:100%;
-    border-bottom:1px solid #ccc;;
+    border-bottom:1px dashed #ccc;;
     margin-bottom: 5%;
 }
 #header{
@@ -26,7 +26,9 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2%;
     background-color: #F2F2F2;
+    margin-bottom: 2%;
 }
 .correct{
-    width:40%
+    width:40%;
+    margin-right: 2%;
 }

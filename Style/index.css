@@ -3,6 +3,13 @@ body{
     padding: 0px;
 }
 
+h3{
+    text-align: center;
+    color:#282A35;
+    font-family: sans-serif;
+}
+
+/* css for navbar */
 #navbar{
     border:1px solid ;
     padding: 2%;
@@ -19,6 +26,8 @@ body{
     font-weight: 200;
 }
 
+
+/* forms and inputs */
 #signup{
     display: flex;
     flex-direction: column;
