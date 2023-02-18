@@ -1,0 +1,32 @@
+body{
+    margin: 0px ;
+    padding: 0px;
+}
+.Answers{
+    display: flex;
+    color:green;
+    width:100%;
+    border-bottom:1px solid #ccc;;
+    margin-bottom: 5%;
+}
+#header{
+    border:1px solid ;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #282A35;
+    color:white;
+    font-size: larger;
+    margin-bottom: 5%;
+}
+#container{
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2%;
+    background-color: #F2F2F2;
+}
+.correct{
+    width:40%
+}

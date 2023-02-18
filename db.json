@@ -6,7 +6,8 @@
                     "a":"myFunction()",
                     "b":"call function myFunction()",
                     "c":"call myFunction()",
-                    "d":"function myFunction()"
+                    "d":"function myFunction()",
+                    "correct":"a"
                 }
 
             },
@@ -16,8 +17,8 @@
                     "a":"The <head> section",
                     "b":"Both the <head> section and the <body> section are correct",
                     "c":"The <body> section is correct",
-                    "d":"Outside the <head> section and the <body> section are correct"
-                }
+                    "d":"Outside the <head> section and the <body> section are correct",
+                    "correct":"b"                }
 
             },
             {
@@ -26,7 +27,8 @@
                     "a":"('Hello Word')",
                     "b":"echo 'Hello Word'",
                     "c":"document.write('Hello Word')",
-                    "d":"print('Hello Word')"
+                    "d":"print('Hello Word')",
+                    "correct":"c"
                 }
 
             },
@@ -36,15 +38,19 @@
                     "a":"<script href='index.js'>",
                     "b":"<script name='index.js'>",
                     "c":"<script src='index.js'>",
-                    "d":"<script link='index.js'>"
+                    "d":"<script link='index.js'>",
+                    "correct":"c"
                 }
 
             },
             {
-                "que":"The external JavaScript file must contain the <script> tag",
+                "que":"How can you add a comment in a JavaScript",
                 "ans":{
-                    "a":true,
-                    "b":false
+                    "a":"//This is a comment",
+                    "b":"/This is a comment",
+                    "c":"'This is a comment'",
+                    "d":"!This is a comment",
+                    "correct":"a"
                 }
 
             },
@@ -54,7 +60,8 @@
                     "a":"if i=5 then",
                     "b":"if i=5",
                     "c":"i==5 then",
-                    "d":"if(i==5)"
+                    "d":"if(i==5)",
+                    "correct":"d"
                 }
 
             },
@@ -64,7 +71,8 @@
                     "a":"msg('Hello Word')",
                     "b":"echo 'Hello Word'",
                     "c":"alertBox('Hello Word')",
-                    "d":"alert('Hello Word')"
+                    "d":"alert('Hello Word')",
+                    "correct":"d"
                 }
 
             },
@@ -74,7 +82,8 @@
                     "a":"function myFunction()",
                     "b":"function=myFunction()",
                     "c":"function:myFunction()",
-                    "d":"myFunction()"
+                    "d":"myFunction()",
+                    "correct":"a"
                 }
 
             },
@@ -84,7 +93,8 @@
                     "a":"if i not equal to 5",
                     "b":"if(i!=5)",
                     "c":"if(i=!5)",
-                    "d":"if i!=5 then"
+                    "d":"if i!=5 then",
+                    "correct":"b"
                 }
 
             },
@@ -94,7 +104,8 @@
                     "a":"js tag",
                     "b":"javascript tag",
                     "c":"script tag",
-                    "d":"scripting tag"
+                    "d":"scripting tag",
+                    "correct":"c"
                 }
 
             }

@@ -5,17 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Style/quiz.css">
 </head>
 <body>
-
+<div id="header">
+   <h1>Quiz</h1> 
+</div>
+    <div id="container">
     <h3 id="que">
 
     </h3>
 
     <form>
-        <input type="radio" name="a" id="a" >
-    </form>
+        <input type="radio" name="ans" id="a" class="answer">
+        <label for="a" id="A"></label>
+        <br/>
 
+        <input type="radio" name="ans" id="b" class="answer" > 
+       <label for="b" id="B"></label>
+            <br/>
+        <input type="radio" name="ans" id="c" class="answer" >
+        <label for="c" id="C"></label>
+        <br/>
+
+        <input type="radio" name="ans" id="d" class="answer" >
+        <label for="d" id="D"></label>
+        <br/>
+
+        <button id="nextbtn">Next </button>
+
+    </form>
+</div>
     <script src="./Scripts/quiz.js" type="module"></script>
 </body>
 </html>
